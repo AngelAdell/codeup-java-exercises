@@ -23,9 +23,11 @@ System.out.print("Enter an integer: ");
         String sentence = scanner.nextLine();
         System.out.printf("Your sentence is: %s%n", sentence);
 
-        System.out.print("Enter the length and width of my office: ");
+        System.out.print("Enter the length of my office: ");
         String length = scanner.nextLine();
+        System.out.print("Enter the width of my office: ");
         String width = scanner.nextLine();
+        System.out.print("Enter the height of my office: ");
         String height = scanner.nextLine();
         int area = Integer.parseInt(length) * Integer.parseInt(width);
         int perimeter = (Integer.parseInt(length) * 2) + (Integer.parseInt(width) * 2);
