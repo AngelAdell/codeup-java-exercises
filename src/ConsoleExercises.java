@@ -23,13 +23,15 @@ System.out.print("Enter an integer: ");
         String sentence = scanner.nextLine();
         System.out.printf("Your sentence is: %s%n", sentence);
 
-        System.out.print("Enter the length and width of the classroom: ");
+        System.out.print("Enter the length and width of my office: ");
         String length = scanner.nextLine();
         String width = scanner.nextLine();
+        String height = scanner.nextLine();
         int area = Integer.parseInt(length) * Integer.parseInt(width);
         int perimeter = (Integer.parseInt(length) * 2) + (Integer.parseInt(width) * 2);
-        System.out.printf("The area of the classroom is: %d%n", area);
-        System.out.printf("The perimeter of the classroom is: %d%n", perimeter);
+        System.out.printf("The area of the office is: %d%n", area);
+        System.out.printf("The perimeter of the office is: %d%n", perimeter);
+        System.out.printf("The volume of the office is: %d%n", area * Integer.parseInt(height));
 
 
 }
