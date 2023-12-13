@@ -4,7 +4,7 @@ public class TypeVariablesSyntaxLecture {
         System.out.println("This statement must end in a semi-colon");
 
         // In Java, every statement must end with a semicolon.
-     int someNumber = 3;
+        int someNumber = 3;
         System.out.println(someNumber);
         someNumber = 126;
         someNumber++;
@@ -24,6 +24,16 @@ public class TypeVariablesSyntaxLecture {
         System.out.println(quotedString);
 
         final String finalString = "This is a \"Angel's\" final string";
+
+        byte myFirstByte = 127;
+        short myFirstShort = (short) (myFirstByte * 100);
+        System.out.println(myFirstShort);
+
+        float almostPi = 3.99F; // F is required for floats
+        int almostPiToInt = (int) (almostPi);
+        System.out.println(almostPiToInt);
+        System.out.println(almostPi);
+        long bigNumber = 3000000000L; // L is required for longs
 
     }
 }
